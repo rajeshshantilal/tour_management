@@ -1,3 +1,11 @@
+frontend:- npm start
+backend :- npm run server
+frontend path:- https://tour-management-sandy.vercel.app/login
+backend path for api:- https://tour-management-xz0t.onrender.com/
+
+
+
+
 Step 1. cd frontend
 Step 2. npm install
 Step 3. start run
