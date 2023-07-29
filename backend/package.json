@@ -6,8 +6,8 @@
   "type": "module",
   "scripts": {
     "start": "node index.js",
-    "server": "nodemon index.js",
-    "build" : "npm i"
+    "server": "nodemon index.js"
+    
   },
   "keywords": [],
   "author": "",
