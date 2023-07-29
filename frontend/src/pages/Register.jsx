@@ -12,19 +12,16 @@ import {BASE_URL} from './../utils/config.js';
 
 
 const Register = () => {
-
     // eslint-disable-next-line react-hooks/rules-of-hooks
     const[credentials, setCredentials] = useState ({
         username:undefined,
         email:undefined,
         password:undefined,
     });
-
     // fetch registration frentend to backend API server
     const {dispatch} = useContext(AuthContext)
     const navigate = useNavigate()
 // end fetch
-
     const handleChange = e => {
         setCredentials(prev=> ({...prev, [e.target.id]:e.target.value}));
     };
